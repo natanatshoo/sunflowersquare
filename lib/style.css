@@ -1,0 +1,107 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@font-face {
+  font-family: "squaremk2 Regular";
+  src: url("../squaremk2-Regular.otf");
+}
+
+html, body {
+    height: 100%;
+	margin: 0;
+    background:#ffffff;
+	font-family: "squaremk2 Regular";
+	font-size: 20px;
+}
+
+#title {
+	float:right;
+	font-size: 50px;
+	color: #FFFFFF;
+	width: 70px;
+	height: 190%;
+	writing-mode: vertical-rl;
+	text-orientation: upright;
+	padding: 140px 90px;
+	background-color: #000000;
+	margin: 0;
+}
+
+#process {
+	width: 100%;
+	height: 900px;
+}
+
+#sample1 {
+	float: left;
+	width: 800px;
+	padding: 10px 10px 10px 30px;
+}
+#sample2 {
+	float: left;
+	width: 200px;
+	padding: 140px 30px 0px 140px;
+}
+#sample3 {
+	float: left;
+	width: 450px;
+	padding: 140px 10px 0px 60px;
+}
+
+#header {
+	float: right;
+	font-size: 20px;
+	width: 60px;
+	height: 100%;
+	writing-mode: vertical-rl;
+	text-orientation: upright;
+	padding: 150px 70px;
+	margin: 0;
+}
+
+.sample {
+	font-size: 45px;
+}
+
+#textbox {
+	float: left;
+	width: 600px;
+	margin-top: 60px;
+}
+
+#try {
+	margin-left: 120px;
+	font-size: 20px;
+}
+
+.area1 {
+	font-size: 15px;
+	font-family: 'squaremk2 Regular';
+}
+.area2 {
+	font-size: 36px;
+	font-family: 'squaremk2 Regular';
+}
+.area3 {
+	font-size: 72px;
+	font-family: 'squaremk2 Regular';
+	height: 250px;
+}
+
+textarea[type=text]{
+    width:600px;
+	height: 220px;
+    border:2px solid #DDDDDD;
+    border-radius:4px;
+    margin:20px 20px 20px 100px;
+    outline:none;
+    padding:8px;
+    box-sizing:border-box;
+    transition:.3s;
+	
+  }
+  
+textarea[type=text]:focus{
+    border-color:#000000;
+    box-shadow:0 0 8px 0 #000000;
+  }
